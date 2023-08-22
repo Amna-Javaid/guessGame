@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+
+  <body>
+    <div class="container">
+    <h1>I am guessing a number bewteen 1-100</h1>
+
+    <p>Can you guess what i am thinking? </p>
+   
+
+    <div class="form">
+      <label for="guessField">Enter your guess: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <button class="guessSubmit">Submit guess</button>
+      <!-- <input type="submit" value="Submit guess" class="guessSubmit"> -->
+    </div>
+
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>  
+      <p class="lowOrHi"></p>
+    </div>
+</div>
+    <script src="main.js">
+      
+    </script>
+  </body>
+</html>
